@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body>
+		<form>
+			<table border="0" width="500" cellpadding="10">
+				<tr>
+					<td><label>Email</label></td>
+					<td><input type="Email" placeholder="Enter Your Email"></td>
+				</tr>
+					<td><label>Password</label></td>
+					<td><input type="Password" placeholder="Enter Your Password"></td>
+				<tr>
+					<td><button="login">Login</button></td>
+				</tr>
+			</table>
+			
+			<table border="0" width="500" cellpadding="10" align="center">
+				<tr>
+					<td><label for="name">Name</label></td>
+					<td><input type="text" maxlength="20" id="name" placeholder="Enter Your Name" size="30" required></td>
+				 </tr>
+					<td><label for="father">Father's Name</label></td>
+					<td><input type="text" id="father" placeholder="Enter Your Father Name" required></td>
+				 </tr>
+				 <tr>
+					<td><label for="mother">Mother's Name</label></td>
+					<td><input type="text" id="mother" placeholder="Enter Your Mother Name" required></td>
+				 </tr>
+				 <tr>
+					<td><label>Email</label></td>
+					<td><input type="Email" placeholder="Enter Your Email" required></td>
+				 </tr>
+				 <tr>
+					<td><label>Password</label></td>
+					<td><input type="password" placeholder="Enter Your Password" required></td>
+				 </tr>
+				 <tr>
+					<td><label> Date of Birth</label></td>
+					<td><input type="date" max="2025-12-31" min="1990-12-31" required></td>
+				 </tr>
+				 <tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" id="male" name="gender" required>
+						<label for="male">Male</label>
+						
+						<input type="radio" id="female" name="gender" required>
+						<label for="female">Female</label>
+						
+						<input type="radio" id="others" name="gender" required>
+						<label for="others">Others</label>
+					</td>
+				 </tr>
+				 <tr>
+					<td><label>Phone</label></td>
+					<!--<td><input type="number" max"100" min="0" step="5"></td> -->
+					<td><input type="tel" required></td>
+				 </tr>
+				 <tr> 
+					<td>Course</td>
+					<td>
+						<input type="checkbox" id="wd" required>
+						<label for="wd">Web Design</label>
+						
+						<input type="Checkbox" id="pwd" required>					
+						<label for="pwd">Web Development</label>
+						
+						<input type="Checkbox" id="gd" required>
+						<label for="gd">Graphic Design</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Blood Group</td>
+					<td>
+					<select> 
+						<optgroup label="Positive">
+							<option>A+</option>
+							<option>AB+</option>
+							<option>O+</option>
+						</optgroup>
+						
+						<optgroup label="Negative">
+							<option>A-<option>
+							<option>AB-</option>
+							<option>O-</option>
+						</optgroup>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Address</label></td>
+				<td>
+					<textarea rows="10" cols="35"></textarea>
+				</td>
+				</tr>
+				<tr>
+					<td>Your Image</td>
+					<td><input type="file"></td>
+				</tr>
+				<tr>
+					<!--<td><input type="submit" value="Register"></td>-->
+					<td> <button="submit">Register</button></td>
+					<td><input type="reset" value="Reset"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
